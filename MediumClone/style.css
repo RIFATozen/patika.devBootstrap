@@ -1,0 +1,33 @@
+body {
+  font-family: "PT Serif", serif;
+}
+
+.bg-yellow {
+  background-color: #ffc017;
+}
+.tbg-yellow {
+  background-color: #ffc017;
+  transition: background-color 1s;
+  transition-timing-function: ease-in-out;
+}
+.border-bottom-dark {
+  border-bottom: 1px solid rgba(41, 41, 41, 1);
+}
+.aside-buttons > li {
+  margin-bottom: 10px;
+}
+.be-gray a {
+  color: #8d8d8d;
+}
+.be-gray a:hover {
+  text-decoration: none;
+}
+.fa-bookmark {
+  cursor: pointer;
+}
+.nav-colored {
+  background-color: white;
+  transition: background-color .5s;
+}
+.btn-dark, .btn-success {transition: background-color .5s;}
+
